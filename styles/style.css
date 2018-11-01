@@ -1,5 +1,5 @@
 html{
-    background-color: darkgrey;
+    background-image: linear-gradient(#e2ff3f,#ff7632);
     display: flex;
     flex-flow: column;
     align-items: center;
