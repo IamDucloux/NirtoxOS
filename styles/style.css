@@ -1,7 +1,19 @@
-:root{
+html{
+    background-color: darkgrey;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
+
+header{
+    align-self: stretch;
+    display: flex;
+    flex-flow: row;
 
 }
 
-html{
-    background-color: red;
+header ul{
+    align-self: flex-end;
+    justify-content: space-around;
+
 }
