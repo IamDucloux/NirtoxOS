@@ -56,13 +56,22 @@ a:link{
 footer{
   display: block;
 }
+
+
 .footer{
   display: flex;
   flex-direction: row;
-  align-items: stretch;
+  align-items: center;
+  justify-content: space-around;
   background-color: #454545;
   position: absolute;
   top: 100%;
   left: 0px;
   right: 0;
+}
+
+.footer ul{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
 }
