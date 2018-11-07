@@ -4,14 +4,20 @@ html{
     flex-flow: column;
     align-items: center;
     text-align: center;
+    padding: 0;
+    margin: 0;
+    height: 100%;
+    width: 100%;
 }
 
 
-
 body{
-    text-align: center;
+    right: all;
+    left: all;
     padding: 0;
     margin: 0;
+    height: 100%;
+    width: 100%;
 }
 
 .Top{
@@ -57,14 +63,6 @@ a:link{
 
 }
 
-.Galeria{
-    text-align: justify;
-    color: #ff6700;
-}
-
-footer{
-  display: block;
-}
 
 
 .footer{
@@ -73,7 +71,8 @@ footer{
   position: absolute;
   left: 0px;
   right: 0PX;
-    width: 100%;
+    bottom: 0;
+  width: 100%;
 
 }
 
@@ -96,20 +95,24 @@ footer{
     align-self: stretch;
     text-align: center;
     padding: 0;
-    margin: 15px;
+    margin: 0;
+    bottom: 0;
 }
 
 .Galeria ul{
     text-align: center;
     left: 0;
     right: 0;
-    margin: 0;
+    margin: 15px;
     padding: 0;
 }
 
 .Galeria h2{
     display: block;
     background-color: white;
+    margin-bottom: 5px;
+    margin-top: 10px;
+    border-bottom: solid grey 3px;
 }
 
 .Galeria a{
