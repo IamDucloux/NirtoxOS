@@ -33,13 +33,15 @@ body{
 }
 
 .Top a img{
-    width: 10%;
+    width: 8%;
     height: 10%;
     position: fixed;
     right: 5%;
     top: 0;
 
 }
+
+.
 
 header{
 
@@ -67,9 +69,7 @@ a:link{
 
 .Presentacion{
   margin-top: 15%;
-  display: flex;
   text-align: center;
-  flex-direction: column;
 
 }
 
@@ -119,14 +119,17 @@ a:link{
 
 .Galeria h2{
     display: block;
-    background-color: white;
+    background-color: darkorange;
     margin-bottom: 5px;
     margin-top: 10px;
-    border-bottom: solid grey 3px;
+    border-bottom: solid black 3px;
     border-left: solid rgba(5,5,5,.3) 2px;
     border-right: solid rgba(5,5,5,.3) 2px;
+    border-radius: 30px;
 }
 
 .Galeria a{
     color: black;
 }
+
+
