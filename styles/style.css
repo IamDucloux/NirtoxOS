@@ -144,7 +144,7 @@ a:link{
 }
 
 @media (min-width: 520px){
-    html{
+    body{
         display: grid;
         grid-template-columns: repeat(5, 1fr);
         grid-template-rows: repeat(8, 1fr);
@@ -152,16 +152,33 @@ a:link{
     }
 
 
-    .top{
+
+    .Top{
         grid-column-start: 1;
         grid-column-end: 5;
         grid-row-start: 1;
         grid-row-end: 1;
+        display: block;
     }
 
-    .top h1{
-        font-size: 2vw;
+    .Top h1{
+        font-size: 10vw;
+        padding: 0;
+        margin: 0;
     }
+
+    .Presentacion{
+
+    }
+
+    .Galeria{
+
+    }
+
+    .footer{
+
+    }
+
 
 
 }
